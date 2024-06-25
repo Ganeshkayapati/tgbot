@@ -3,7 +3,7 @@ const { message } = require("telegraf/filters");
 
 require("dotenv").config();
 
-const bot = new Telegraf("7289440087:AAHSe57cagnz4s4gd8wqcoRapXgi-2nGPbw");
+const bot = new Telegraf("YOUR_TGBOT_KEY");
 
 try {
   bot.start((ctx) => ctx.reply("Welcome click /help for commands"));
